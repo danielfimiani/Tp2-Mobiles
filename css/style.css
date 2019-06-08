@@ -1,0 +1,16 @@
+/*
+    #f9d71C : Amarillo
+*/
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    background-image: url('../img/logo.png');
+    background-size: cover;
+}
+
+.nav-link{
+    color: #f9d71C;
+}
