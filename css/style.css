@@ -32,7 +32,12 @@ h3 {
 }
 
 iframe {
-	height: 400px;
+	height: 500px;
 	margin-bottom: 100px;
 	border: 0;
+}
+
+.container-fluid,
+.container {
+	margin-bottom: 100px;
 }
