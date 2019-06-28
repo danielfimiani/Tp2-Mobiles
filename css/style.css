@@ -45,6 +45,10 @@ iframe {
 label {
 	color: #ffff00;
 }
+
+footer {
+	background: #000012;
+}
 @media screen and (max-width: 480px) {
 	h2,
 	h3 {
