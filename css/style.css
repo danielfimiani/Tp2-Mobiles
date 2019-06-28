@@ -41,3 +41,27 @@ iframe {
 .container {
 	margin-bottom: 100px;
 }
+
+@media screen and (max-width: 480px) {
+	h2,
+	h3 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 12px;
+	}
+	#infoevento img {
+		width: 20px;
+	}
+
+	.mb-5 {
+		margin-bottom: 2px !important;
+	}
+	li {
+		font-size: 16px;
+	}
+	iframe {
+		margin-bottom: 5px;
+		height: 250px;
+	}
+}
