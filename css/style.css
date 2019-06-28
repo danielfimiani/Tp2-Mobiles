@@ -18,7 +18,7 @@ p {
 h2,
 h3 {
 	color: #ffff00;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 #info {
@@ -50,17 +50,35 @@ footer {
 	background: #000012;
 }
 
-footer ul li a:nth-child(1) {
-	background: url('../img/icons8-facebook-old-48.png') center no-repeat;
+ul {
+	list-style: none;
+}
+footer ul li:nth-child(1) a {
+	background: url('../img/icons8-facebook-old-96.png') center no-repeat;
 	background-size: cover;
+	width: 48px;
+	height: 48px;
+	font-size: 0;
 }
 
-footer ul li a:nth-child(2) {
-	background: url('../img/icons8-facebook-old-48.png');
+footer ul li:nth-child(2) a {
+	background: url('../img/icons8-instagram-96.png') center no-repeat;
+	background-size: cover;
+	width: 48px;
+	height: 48px;
+	font-size: 0;
 }
 
-footer ul li a:nth-child(3) {
-	background: url('../img/icons8-facebook-old-48.png');
+footer ul li:nth-child(3) a {
+	background: url('../img/icons8-twitter-96.png') center no-repeat;
+	background-size: cover;
+	width: 48px;
+	height: 48px;
+	font-size: 0;
+}
+
+footer .container{
+	margin-bottom: 0;
 }
 @media screen and (max-width: 480px) {
 	h2,
@@ -106,23 +124,27 @@ footer ul li a:nth-child(3) {
 		flex-direction: column-reverse;
 	}
 
-	footer ul li a:nth-child(1) {
+	footer ul li:nth-child(1) a {
 		background: url('../img/icons8-facebook-old-48.png') center no-repeat;
 		background-size: cover;
-		width: 100px;
-		height: 40px;
+		width: 48px;
+		height: 48px;
 		font-size: 0;
 	}
-	footer ul li a:nth-child(2) {
-		background: url('../img/icons8-facebook-old-48.png') center no-repeat;
+	
+	footer ul li:nth-child(2) a {
+		background: url('../img/icons8-instagram-48.png') center no-repeat;
 		background-size: cover;
+		width: 48px;
+		height: 48px;
+		font-size: 0;
 	}
-	footer ul li a:nth-child(3) {
-		background: url('../img/icons8-facebook-old-48.png') center no-repeat;
+	
+	footer ul li:nth-child(3) a {
+		background: url('../img/icons8-twitter-48.png') center no-repeat;
 		background-size: cover;
-	}
-
-	footer .container{
-		margin-bottom: 0;
+		width: 48px;
+		height: 48px;
+		font-size: 0;
 	}
 }
