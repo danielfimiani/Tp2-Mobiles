@@ -52,6 +52,7 @@ footer {
 
 ul {
 	list-style: none;
+	padding-inline-start: 0px;
 }
 footer ul li:nth-child(1) a {
 	background: url('../img/icons8-facebook-old-96.png') center no-repeat;
@@ -80,13 +81,14 @@ footer ul li:nth-child(3) a {
 footer .container{
 	margin-bottom: 0;
 }
+
 @media screen and (max-width: 480px) {
 	h2,
 	h3 {
 		font-size: 18px;
 	}
 	p {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	#infoevento img {
 		width: 20px;
