@@ -12,14 +12,27 @@
 
 p {
 	color: #ffff00;
-	font-size: 20px;
+	font-size: 22px;
 }
 
-h2 {
+h2,
+h3 {
 	color: #ffff00;
 	margin-bottom: 30px;
 }
 
 #info {
 	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+#infoevento img {
+	color: #ffff00;
+	width: 45px;
+}
+
+iframe {
+	height: 400px;
+	margin-bottom: 100px;
+	border: 0;
 }
