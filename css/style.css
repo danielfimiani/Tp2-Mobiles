@@ -59,6 +59,7 @@ footer {
 	}
 	#infoevento img {
 		width: 20px;
+		height: 20px;
 	}
 
 	.mb-5 {
@@ -70,5 +71,21 @@ footer {
 	iframe {
 		margin-bottom: 15px;
 		height: 250px;
+	}
+
+	#actividades li p {
+		border-bottom: 1px solid #ffff00;
+	}
+
+	#infoevento li p {
+		margin-left: 10px !important;
+	}
+
+	.pl-5 {
+		padding-left:0 !important; 
+	}
+
+	#actividades .row:nth-child(2) {
+		flex-direction: column-reverse;
 	}
 }
